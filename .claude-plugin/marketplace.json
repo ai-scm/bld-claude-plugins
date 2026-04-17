@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "bld-claude-plugins",
+  "metadata": {
+    "description": "Blend's Claude Code plugin marketplace. Token efficiency tools, planning workflows, and productivity automations."
+  },
+  "owner": {
+    "name": "Blend",
+    "email": "ai-scm@blend.com"
+  },
+  "plugins": [
+    {
+      "name": "bld-token-cost-efficiency",
+      "description": "Token-saving hooks and skills: log-filter reduces test/build output 80-92%, read-once blocks redundant file re-reads 40-80%, plus token-audit and opusplan skills.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Blend"
+      },
+      "source": "./plugins/bld-token-cost-efficiency",
+      "category": "productivity",
+      "tags": ["tokens", "cost", "efficiency", "hooks", "planning"]
+    }
+  ]
+}

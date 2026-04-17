@@ -1,0 +1,11 @@
+{
+  "name": "bld-token-cost-efficiency",
+  "version": "1.0.0",
+  "description": "Token-saving hooks and skills: log-filter reduces test/build output 80-92%, read-once blocks redundant file re-reads 40-80%, plus token-audit and opusplan planning workflow.",
+  "author": {
+    "name": "Blend"
+  },
+  "repository": "https://github.com/ai-scm/bld-claude-plugins",
+  "license": "MIT",
+  "keywords": ["tokens", "cost", "efficiency", "hooks", "planning", "opus"]
+}
