@@ -1,5 +1,4 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "bld-claude-plugins",
   "metadata": {
     "description": "Blend's Claude Code plugin marketplace. Token efficiency tools, planning workflows, and productivity automations."
