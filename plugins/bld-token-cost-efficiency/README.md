@@ -2,6 +2,14 @@
 
 Plugin de eficiencia de tokens para Claude Code.
 
+## Quick Start
+
+```
+/bld-onboard
+```
+
+Configura todo en un solo paso: jq, RTK, análisis de contexto, health check y escaneo del repo.
+
 ## Hooks
 
 | Hook | Evento | Ahorro estimado |
@@ -14,11 +22,14 @@ Plugin de eficiencia de tokens para Claude Code.
 
 | Skill | Trigger |
 |-------|---------|
+| bld-onboard | `/bld-onboard`, "setup plugin", "first time setup" |
 | token-audit | `/token-audit`, preguntas sobre tokens/costo |
-| opusplan | `/opusplan`, decisiones arquitectónicas |
-| rtk-setup | `/rtk-setup`, "install rtk", "configure rtk" |
+| token-scan | `/token-scan`, "scan config", "audit configuration" |
 | context-diet | `/context-diet`, "optimize context", "context too large" |
 | session-hygiene | `/session-hygiene`, "session tips", "session health" |
+| opusplan | `/opusplan`, decisiones arquitectónicas |
+| rtk-setup | `/rtk-setup`, "install rtk", "configure rtk" |
+| git-commit | `/git-commit`, "commit changes", "create commit" |
 
 ## Dependencias
 
